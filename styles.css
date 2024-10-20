@@ -1,0 +1,34 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(124, 0, 162);
+    border: 10px solid rgb(78, 0, 90);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 5px solid rgb(100, 0, 124);
+}
+
+.red-piece {
+    background-color: rgb(255, 20, 20);
+}
+
+.yellow-piece {
+    background-color: rgb(255, 255, 56);
+}
